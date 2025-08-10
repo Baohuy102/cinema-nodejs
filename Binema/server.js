@@ -42,7 +42,7 @@ module.exports = app;
 var dbConn = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
+    password: '123456',
     database: 'nodeJsApi'
 });
 dbConn.connect();
